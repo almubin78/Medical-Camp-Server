@@ -1,0 +1,24 @@
+{
+  "name": "medical-camp-server",
+  "version": "1.0.0",
+  "description": "[requirement pdf](https://github.com/ProgrammingHero1/B8A12-The-Final-Effort/blob/main/Requerments-pdf-all/assignment12_category_0016.pdf)\r [Server repo](https://github.com/programming-hero-web-course1/b8a12-server-side-almubin78)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build":"index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  }
+}
